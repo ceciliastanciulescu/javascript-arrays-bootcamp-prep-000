@@ -23,7 +23,7 @@ function accessElementInArray(arr, index){
   return arr[index];
 }
 
-function destructivelyRemoveElementFromTheBeginningOfArray(array){
+function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift();
   return array;
 }
